@@ -1,0 +1,120 @@
+.recent-picture-popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  z-index: 1000; 
+}
+
+.recent-picture-popup img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.recent-picture-popup button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* homepage.css */
+
+.picture-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.picture-item {
+  width: 200px;
+  text-align: center;
+}
+
+.picture-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-content form {
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.modal-content label {
+  margin-bottom: 10px;
+  width: 100%; 
+}
+
+.modal-content input {
+  width: 100%; 
+  padding: 8px;
+  margin-top: 4px;
+}
+
+.modal-content .button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+  margin-top: 20px;
+}
+
+.modal-content button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  flex: 1; 
+  margin-left: 10px;
+}
+
+.modal-content button:first-child {
+  margin-left: 0; 
+}
+
+.modal-content button.cancel {
+  background: #ccc;
+}

@@ -1,0 +1,135 @@
+.home-page {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left .logo a {
+  color: black; 
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+  text-decoration: none; 
+}
+
+.nav-link-home {
+  color: blue;
+  margin-right: 30px; 
+  text-decoration: none;
+}
+
+.nav-link-favorites {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link-home.active,
+.nav-link-favorites.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.header-right {
+  display: flex;
+  align-items: center; 
+}
+
+.header-right .action-button {
+  margin-right: 20px; 
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.header-right .user-greeting {
+  margin-right: 20px; 
+  color: black;
+}
+
+.header-right .logout-text {
+  cursor: pointer;
+  color: blue;
+}
+
+.image-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 10px;
+  max-height: calc(3 * (200px + 10px)); 
+  overflow-y: auto; 
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column; 
+  border: 1px solid #ddd;
+  padding: 10px;
+  position: relative;
+}
+
+.image-item img {
+  width: 100%; 
+  height: auto;
+}
+
+.image-info {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.image-description {
+  text-align: center;
+  margin: 10px; 
+}
+
+.image-name {
+  text-align: left;
+  margin: 5px;
+}
+
+.image-date {
+  text-align: left;
+  margin: 5px;
+}
+
+.heart-icon {
+  font-size: 36px; 
+  /* color: transparent;  */
+  /* color:black; */
+  cursor: pointer;
+  display: inline-block;
+  width: 36px; 
+  height: 36px; 
+  position: relative;
+  line-height: 0; 
+}
+
+/* .heart-icon:before {
+  content: '\2665'; 
+  font-family: 'Arial'; 
+  font-size: 36px; 
+  color: gray; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.heart-icon.favorite:before {
+  color: red; 
+} */
+

@@ -1,0 +1,104 @@
+/* src/styles/FavoritesPage.css */
+
+/* Style for navigation links */
+.nav-link {
+  color: black; 
+  text-decoration: none;
+  margin-right: 30px; 
+}
+
+/* Specific style for the Home link */
+.nav-link-home {
+  color: black; 
+}
+
+/* Specific style for the Favorites link */
+.nav-link-favorites {
+  color: black; 
+}
+
+/* Style for active navigation link */
+.nav-link-active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Apply active color to Home link */
+.nav-link-home.active {
+  color: blue;
+}
+
+/* Apply active color to Favorites link */
+.nav-link-favorites.active {
+  color: blue;
+}
+
+/* Container for the image grid */
+.image-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px; 
+  grid-auto-rows: minmax(200px, auto); 
+  margin: 20px; 
+}
+
+/* Style for each image item */
+.image-item {
+  position: relative;
+  width: 100%; 
+  overflow: hidden; 
+}
+
+/* Style for image info */
+.image-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Ensure text is centered */
+  padding: 10px; 
+}
+
+/* Style for image description */
+.image-description {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+/* Style for image details bottom */
+.image-details-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+/* Style for image name and date */
+.image-name, .image-date {
+  font-size: 12px;
+  color: #666;
+  margin: 4px 0; 
+  text-align: left;
+}
+
+/* Style for heart icon */
+.heart-icon{
+  font-size: 24px;
+  color:black;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px; 
+  right: 10px;  
+}
+
+/* Style for active heart icon */
+.heart-icon.favorite .heart {
+  color: red; /* Color when heart is active/favorite */
+}
+.newfav{
+  font-size: 24px;
+  color:rgb(236, 9, 9);
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px; 
+  right: 10px;  
+}

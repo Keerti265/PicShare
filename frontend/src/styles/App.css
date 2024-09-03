@@ -1,0 +1,32 @@
+/* src/styles/App.css */
+
+.nav-link-home.active,
+.nav-link-favorites.active {
+  color: blue;
+}
+
+.nav-link-home,
+.nav-link-favorites {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.heart-icon.favorite {
+  cursor: pointer;
+}
