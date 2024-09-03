@@ -1,5 +1,4 @@
 # PicShare  
-# PicShare
 
 PicShare is a web application that allows users to share pictures with the world, view pictures from other users, and save their favorite pictures.
 
